@@ -66,7 +66,7 @@ export default function Home() {
             muted
             playsInline
             className="w-full h-full object-cover"
-            poster="../public/images/barberia.png"
+            poster="/images/barberia.png"
           >
             <source src="https://cdn.coverr.co/videos/coverr-hair-cutting-in-a-salon-5244/1080p.mp4" type="video/mp4" />
           </video>
@@ -195,12 +195,12 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="grid grid-cols-2 gap-4 order-2 md:order-1">
               <img
-                src="../public/images/barberia1.png"
+                src="/images/barberia1.png"
                 className="rounded-3xl w-full h-72 object-cover translate-y-8 shadow-lg"
                 alt="Salon detail"
               />
               <img
-                src="../public/images/barberia2.png"
+                src="/images/barberia2.png"
                 className="rounded-3xl w-full h-72 object-cover shadow-lg"
                 alt="Haircut"
               />
